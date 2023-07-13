@@ -1,11 +1,9 @@
-import { Container } from './styles'
-
-import { Text } from 'react-native'
-
+import { Container, Percentage, CardDescription } from './styles'
 export function PercentageCard() {
   return (
     <Container style={styles.boxShadow}>
-      <Text>asdasd</Text>
+      <Percentage>90,86%</Percentage>
+      <CardDescription>das refeições dentro da dieta</CardDescription>
     </Container>
   )
 }
