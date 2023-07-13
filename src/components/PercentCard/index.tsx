@@ -1,7 +1,18 @@
-import { Container, Percentage, CardDescription } from './styles'
+import React from 'react'
+import {
+  Container,
+  Percentage,
+  CardDescription,
+  BackIcon,
+  BackButton,
+} from './styles'
+
 export function PercentageCard() {
   return (
     <Container style={styles.boxShadow}>
+      <BackButton>
+        <BackIcon name="arrow-up-right" size={24} />
+      </BackButton>
       <Percentage>90,86%</Percentage>
       <CardDescription>das refeições dentro da dieta</CardDescription>
     </Container>
